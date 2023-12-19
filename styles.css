@@ -1,0 +1,41 @@
+html {
+    font-size: 10px;
+    //background: url(https://www.timeoutdubai.com/cloud/timeoutdubai/2022/11/22/LSB-HERO-IMAGE-22-1000x750.jpg)
+    background-size: cover;
+  }
+  
+  body,html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(https://www.timeoutdubai.com/cloud/timeoutdubai/2022/11/22/LSB-HERO-IMAGE-22-1000x750.jpg);
+  }
+  
+  .keys {
+    display:flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    flex:1;
+  }
+
+  .key{
+    border:.4rem solid white;
+    border-radius: 5px;
+    margin:10px;
+    font-size: 20px;
+    padding:5px;
+    transition: all .07s ease;
+    width:10rem;
+    text-align:center;
+    color:gray;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 .5rem black;   
+  }
+
+  kbd{
+    display:block;
+    font-size: 4rem;
+  }
+  
+ 
